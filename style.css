@@ -401,6 +401,36 @@ section .button button:hover{
   background-color: #fff;
   transition: all 0.4s ease;  
 }
+.projects .filters {
+  padding: 20px;
+  margin: 40px auto;
+}
+.projects .filters ul {
+  display: flex;
+  justify-content: center;
+}
+.projects .filters ul li {
+  list-style: none;
+  background: #F0F8FF;
+  padding: 8px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.projects .filters ul li {
+  font-size: 20px;
+  font-weight: 300;
+  outline: none;
+  border-radius: 6px;
+}
+.projects .filters ul li.filter-active {
+  font-size: 20px;
+  font-weight: 300;
+  outline: none;
+  background: #4070f4;
+  color: #fff;
+  border-radius: 6px;
+}
 
 /* Contact Me CSS */
 .contact{
