@@ -1,0 +1,18 @@
+@media (max-width: 425px) {
+    .projects .filters {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .projects .filters ul {
+        width: max-content;
+    }
+}
+@media (max-width: 375px) {
+    .projects .filters ul li {
+        padding: 10px;
+    }
+    .projects .filters ul li.filter-active {
+        padding: 10px;
+    }
+}
