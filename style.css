@@ -146,6 +146,9 @@ nav.sticky .menu-btn{
   margin: 5px 0;
   color: #4070f4;
 }
+.intro .text-three span {
+  margin-left: 30px;
+}
 .intro .text-four{
   font-size: 23px;
   margin: 5px 0;
@@ -363,6 +366,10 @@ section .button button:hover{
 }
 .skills-details .p4 svg circle:nth-child(2) {
   stroke-dashoffset: calc(410 - (410 * 70) / 100);
+  stroke: #4070f4;
+}
+.skills-details .p5 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(410 - (410 * 50) / 100);
   stroke: #4070f4;
 }
 .skills-details .percentagebox .topic {
