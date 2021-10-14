@@ -195,6 +195,14 @@ section .content{
   justify-content: space-between;
   align-items: center;
 }
+.about .about-details p a.github {
+  text-decoration: underline;
+  color: #4070f4;
+}
+.about .about-details p a.github:hover {
+  text-decoration: none;
+  color: #4070f460;
+}
 section .title{
   display: flex;
   justify-content: center;
